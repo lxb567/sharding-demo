@@ -1,9 +1,12 @@
 # sharding-demo
 #分库分表示例
 #sharding-jdbc + springboot + druid-starter + mybatis-plus
+~~~~
+版本信息
 springboot2.6.3
 shardingshpere/sharding-jdbc 5.0.0
 druid-springboot starter 1.2.8
+~~~~
 
 1.使用druid starter需要在启动类排除druid的自动配置
 ~~~~
