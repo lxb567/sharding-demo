@@ -26,7 +26,6 @@ class ShardingDemoApplicationTests {
     public void addCourse() {
         for(long i=0;i<10;i++){
             Course course = new Course();
-            course.setCid(i);
             course.setCname(i+"-xxx");
             course.setStatus(i+"--ss");
             course.setUserId(i);
