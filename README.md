@@ -26,4 +26,6 @@ spring.shardingsphere.datasource.m1.type=com.zaxxer.hikari.HikariDataSource
 
 4.测试类只有两个方法，此版本用于学习，分表，无分库，事物相关
 
-5.sharding-jdbc最新版本5.1.0的目前简单的用hikaricp，如果使用druid会报错，如果druid可以使用，请不吝指教，扣扣：1003956514
+5.实体类的cid没有添加@TableId所以test中id是直接设置的，如果加了id的注解，则会自动根据配置文件配置的id生成策略(snowflake)来生成id
+
+6.sharding-jdbc最新版本5.1.0的目前简单的用hikaricp，如果使用druid会报错，如果druid可以使用，请不吝指教，扣扣：1003956514
